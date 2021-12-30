@@ -3,7 +3,7 @@ name: kkz
 on:
   workflow_dispatch:
   schedule:
-    - cron: 1 56,13 * * *
+    - cron: 56 1,13 * * *
   watch:
     types: started
   repository_dispatch:
