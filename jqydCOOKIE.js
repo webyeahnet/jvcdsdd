@@ -1,7 +1,7 @@
 module.exports = {
     "id": "zqyd",
     "name": "钟情阅读",
-    "keys": ["zqydbody","zqydbody2",],
+    "keys": ["zqydbody","zqydbody2","zqydbody3","zqydbody4","zqydbody5","zqydbody6","zqydbody7",],
     "author": "@tom",
     "settings": [{
       "id": "zqydSuffix",
@@ -12,7 +12,7 @@ module.exports = {
     }, {
       "id": "zqydCount",
       "name": "账号个数",
-      "val": "4",
+      "val": process.env.zqydCount,
       "type": "number",
       "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
     }, {
@@ -60,26 +60,27 @@ module.exports = {
     "favIconColor": "grey",
     "datas": [{
       "key": "zqydbody",
-      "val": "p=aFbVGOYyXwIo%3Dhf8d4sXXUSSb3bpyvrJLcmQYuYpy_-F7OJ_CuoLVB7fsvJAQaoBzAc2fl71MRtFFOoF2KIWNSLcFW3FdjLQOwLuT_MLoAkxfkFabW4dP1yBpkoT84UfR_--YV5coug83cTTV1j6jwQEqo-r-K-DQ12qCJo0rZGNsqSHPTrWXrYrklkqRKRM2zmAIWqMJJ0xV4Lme1WpvyDffoTelZpLODw3Pr15ZURiaKQv1089sjYbBfin6j3EZDNw8XMgZek5MgM9p9uWhRHZ8xcK3wfmnHhNZrI-uR50ac_Frd4rX6lBYhW7wJtZ_HaJqjIAQRObXDz1KUAJ4yk3bgmsneRRL-6ie_1ApdJHPBCATtL6_D6mpVazREG-_gWZCqbmfhgok4HhxjjDWxw_6ZGDRN7l5MH63lUlOgTGRof9NvFexFNUghaujriYkghH2PBx48-i3PE2eebTnX8R8WGsQFBtUYaaUXqAvWyY8Degdc1TuRV0Z1kVaooGJMjtrxXBGPfNX2c5ZGt4gTp95Jy1PZ6wXvZi_NsjZSZAl_saMllk6ku6lqvj-eWQaYqrkWXYofpp9UsXkZ0__ZRT9B-9E_jT16LGM-pYksd7XKUjecri-diquyNR9AHSEo-m969MhvNVY5mq4chiBQpkooLpOMNCVnlujaiDyW6co530phEdWl5pASEhn_rLY15JY5MO93k6h1mPd0ZvXP3BU5YqfMV1dnoWjiMWbyyi9CHA9EoMORKVah8nYzJl6a0UtnpNaE6Lv7D3WBRPFhHQt35wpqEZ6sN0HXwVhpk8RhNT8N_gxNfZd0RL2mzdsiHL_1eauGadlX9Tg2hcPamNZob1FPbu091AkoYIM4KE-L7iWpJPnvmpBujLKAFAN4eaMD9CrvPq0whJbb7BxxD2MUWNYQl1dKQ26FpuUsTkeG9HBNOPLdGOg6WbNWco_MGdIyt4wW8mdKkxkqEDQdnH6Q524jioGmKx0yuccbFmjlnsdJOOv7oXX0aBqNiGr0-UJcQWUb8eSCWQsv0_NRENdFJYEybgmNp1cVLvh8EFPFxm7_9iFpHbLdkCpX6NIZVQFHloBu75mfHlFm85SFoy5qSJUicx11JOj-AehGkgKdElEARadDR5hsT5TzfOqp_f1sEkfyPrxb2SbI7qQsjnp9JpTlFS9EK9UEr9WTr28MsIgm5cIjVyKS_X9uP8mTaBJMz2kovRr9Tzi4cFEyQtDBlCo_ctuM_itRcKp_C0fqh80Of6pw9AzNsO1gFQllLyoi5wNzhxj_8uKNkR6h6RLO5UzXx8W8lAeoOBHx3-pWaXlIk-yHtNLpJCAY4OYvKcD4nX8L59ySdVLsgYlRc3_12Hg4TR3VgR8G-o3StvxLjOTWkpu2jUNlvHBX9bxsj5y0ZTRq-7ahz_t3k5ZLn8RlNybrMqZr0HnWeOSGw9pQTU9g96m6io%3D6"
+      "val": process.env.zqydbody
     }, {
       "key": "zqydbody2",
-      "val": "p=PCWwRj3eGxCw%3Dr_eNlWKYuMeKCD0GRCZiId7C1AVNRQUdR6VIHjxcUuy2jLYfL0Ewj4AWruucCcASpwhYMbh-K7NX8u_PfiMVVqSYAoeYYIGypNxbtuGyyV7W6qV03lAasKlR6w6oXqMhs8DA_xl0hKRwmpBj2RBHb5JN1f6AtrbQQYrkdrMCWBDfKKQAzl_-EqYZv2mrYTGDEXpQT3fDrdYVja0F3XOmMkCs_UXGKo_1zSsC0wkwbqv4Z_CIce0ymkKWZR65Cj8aEkgzSYyIhQFrH_ECWXGaUyCLUDTcNsJbnpdDuOMgTYmWDY2mOXPw77t7PeDLSK6IagXmTpPMQCMDYNty56Rj9F33ysczOLA0W2PzOV3mehWsKVlS8eom1j92RMNYyIZ6T4Pf9e0KY5Vqs1rtCvYHfI3DVl14KAWa0al3rbsIHHgzwY_NQOU-ifIBzelwrRGuRjnf2Hr5EptecUJLBeG5prEz6kOvDT9zKyXuSVfyo9Ght7N5UO2u6hpH5pP4uHqscoAu_7M-1C_Fw5Gbf9mN32Aw8gtbDTET95R4ZWPzNOB1tWiikAJGeJql7giNVAch8BfKk04AzMg9XVnRHvpBYpi_rxzHy2f6mhfVqgXmoI0FgsWhUBRVEZMs07K7T9x028erRl5oGqiv_lVcPc99uOwOU2eQDe1crzUkwCVpT1Z5qbZynuHWNw_zPbeN0S7oIiSpvkxXghF5q6wPsjcnsnwvvIIMqcqpRKRli32ZwcYClXyf147lIPRhNOrltf-VOq1WllICfDRvVNvEpdvktawz5HkSVk0gqKSKVbp9JY5YrqFh0I8mSUoOPYE1YnDKjb4BHMGqJjhfGSrQdS6vyBRVeB8DmXp2Dmr_x6XfFOswhSOwV4CFVIrIRsV2vUDXzVZgPcBHsiJptAdTEKgrX4N6qfNEnXGsctP5a8ZWckDSontekz0CyCqbK2Aw5LI3MPXL9atkdsA8MGZRaXA8-rrhugOPYsRKZ-DsREja3n4CQFzaGI4llZ8kA6r_ijPFlWUhNZxhXfNwESl8d6TSHLd-vbqOosN2n1WQWveZy2PnWCEbC3x99_GD8JObXBh7a3pzsdePat_4s7EX6regKaGED1jnrlpK1VMPaNzi0_L_WxMGrCmt-oeuHLM64z6QtjPIcd2uJ5nV1HeRSIGX0tOEcD6fAGyEHn6yekJf_ctmTTjye9FUerLA0G50OZ5YGcTuP05PEdg79B4S8IBUa_uTEAyYU5O175L3MKAhDeb_pylmgbSEWsRxnI1hLH41y3Ah2-XD4KA%3D"
+      "val": process.env.zqydbody2
     }, {
       "key": "zqydbody3",
-      "val": "p=KwNMsLAQgw3E%3Dv9KveHJhUlCagirF_fZxG3bF_mqByz8m3-839eZ3xHnBaCyi6lHOxWozClWSgnv1EQnIs7ckJXfV9765vYejuP0YO5ItdgwPP_SP48KPSxXSieoi9lYK8ca-Hlz9DpA_PHiccvpkq1JWUu9iVa0SGvDGrVYzn0N_aXe3qiCSXEYjue_EuKFUM_4i_MlWZ9Hb5QPrsqxUZV5p12PpDBz2W5HQtdxSeItd2dYR9pa3a8lSf5eE4kjAc2sB24WnOHE9y12s2Qlj0TIWWR-Drc_VoUB8dWVYY9BLb90-UXvNWC7Zf-vsmT8BH9zB8cNn5WfAzEOeUknM6rgLSM20oVZevo9PfQILrN8igizr6YOZg16zMEbrIt_3ayZvE44zUkDAcriSm3Lck7CVwJ7yofy0HvgdVMHGmZ2W0a2cNaPA-2eG0mj32kJHKXWiy3ti9jCZvYU46AyMPLM9-Ma6yl4NNFt_BZhSq-cnOCTjwyXsfLiOhNAfj8KJbHV34kiZg8yq_laFsIp9H3bpGWJB4zR-pLTdIKzbhRLWFzFlUAoDHGCUVqeKViopmlIvxadkuORt58d2PkU_piMRTkOJ5MoT80Txh0onuNZ16yVkRVxh_TDbLt-g0N9E-u9NIRazLdblgZl6_ce0sKYPa1VC1e3jhTr7ErciPaneZfmDybop-tKJWEHMnmpxJ6soyIeLXoE-YYTc695aQjGUr-9Oql5ggdz6hblPIPWbtk5yXU4PawurTxQn4fpPtuFafQe8QGg4O_7Y9zG5jlQdU7o600NN9yjUqF26VfUkQ1CzJPplmWx82Uq0xcy54YbCMMkWfUc4-0hixEU_SuxJI9o2T3Rprzbmt1kVgIeMW39rIWXgXB8Dlp1JIn8ZW1DrL3GDjkfV74f6Hn277bqOpYt4eYppR9EmayNdSqBYhKypmh0s9gyvjc1LcqJgxUYwOLwy77yt1v0TXbSAm5Dj-xeXQBqyrEyf5B7VGZMdEW9_p4mD7QSy9Z9tfg0_EuozIdpUfTwHkvEzhFRZmKMv9pIT7qohNvfbDa1qSKLTHI2m7GJBrZRdXRBRQNFUiClOUigM84xnpQ2uC8h2wfxusc4OuX19Pr4rs9OWxRHhPs8JO1Jfz354RBorqNOhrlIuEaLofB6KCVUzBRPwoSQkuWg9QRjrDPJv7IlfE3IWACim761E7K29fmCj4y9SYtK0ElikwxKlOdxsKe1ibk39FCdQh8B5kJ_honQsNlEfqj2IOZaeBZMsy5dUiDxjrPbxOpwMnyr_3Ps_HoZh0bM%3DUQ"
+      "val": process.env.zqydbody3
     }, {
       "key": "zqydbody4",
-      "val": "p=ocTMBiVxDAfc%3DNMpl7bj8OMk3DmUk0Mw_ozDnTHCfzi7ikwaSjGzW-r42bSL8_EXBAZQ4FPzv7lL4HYmUghMHj2-84v4l9ObhirYBMWVPPmQkwPvlXgeQo1J0-sdjVP8nmYZSfiRX9FlhOOEURka_8qbBrS21_-k3HU3OcdOR8fkTYBe2L3Iymse-WFUD8DEiyXRE7UVhi3DRYHWhJ36l-UznB4e4fFg6Jn7jg0utkTwFet0YwKruT6hF5-VFKCFSEGzDHF-sENEpwrqWfDRgMUmCn2-_k6HVFTDctNshqssuLSGBm2t_pSpdkQj9CpawGE4_UUkNdStAH378NXTLo53Xf-39xBkwmghLvCSLU2f3PI5gu5rkV2NA65qvfBacMN9rr0-a36UJ5AZkC9YxmHovXoRF1hP-fqQDanyYMg2CiL_QYo5m3f4YrYJ-sHc5EThaWWgCLPV8jVnuz1fuo9y67N1HcAvNZDPQn0UQELwPzRyGXmNFX4Q7tQAxlIYdNklqcdO-k1zTRnXaYfN5TMAcMhqbuNLNk0rjsC5BItZTavTN2c4zwgk3rmNcIq6Rs8K0AsqHDHr9LvWERJorQxs5AvzZhPireGMLip3ZUobeQyuYJQrVvOGNAuh1CWrqqJPQ4vxD5YUlAOgH3P3G3lbdMryGy4OqjRDoMv6oBETNu6gz34IbOQV0s7UJMjOUmGv3doMyzuXK5tVjQqfjDNzyIVLJb4Mi3UprF0XHXHQ3_YKEtAG4DdHGBCByg4aeXiLKp3J0lBSJ35NvIqYtiqFU2CytoYjdEUNZbclnm439kDAGUksHZic4FuUEoCsjja5DK48BY2y6ilws8TZhpavIevT6dkef255-874Bq9J-5OgMSAOl9kDCSfxsjkekaJQGHidL3mYugpGZNjyBsBkTYav4NlA-H9rRXH6pAKXnizB-hNZ_p35vpQwKTWzKaICmhB84wCHv7U3j1YXZ8JB8yizHnm5wZdY6oHMCcaLL9H61ZCFvBA-nCCd554VKjE0eruGZlIX6YKwbNX7OyRvqr8BMzvNxk2PjHAEejm8OfRdx0m_ZnnX-ZNLfFFiaw5gvXMPe-Gy54AxXyGK7ofUiJ2a6agcQnI_lXHm_d6Ve0w5H66Q1ZKDz7s971hXHZQMIaB-9FMlnZpgPet11VNcsQopZKaIs89cjakYZ530U41Q4jZAoeQc6pNoV2bLXag9ibhzCR-XUrBZXkJyzHRVcz4NzGN25s27xY16xECHQw8fkEXaBqNnK-ofIWkRaUrGKXR2iMH_ajs4tO0_G8Gg%3DK"
+      "val": process.env.zqydbody4
     }, {
       "key": "zqydbody5",
-      "val": "33333333"
+      "val": process.env.zqydbody5
     }, {
       "key": "zqydbody6",
-      "val": "44444444"
+      "val": process.env.zqydbody6
     }, {
       "key": "zqydbody7",
-      "val": "55555555"
+      "val": process.env.zqydbody7
     }],
     "sessions": [],
     "isLoaded": true
   }
+  
